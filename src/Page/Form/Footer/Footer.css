@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#323355, #282845);
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.flogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.hmz  {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- media query ----------- */
+@media (max-width:800px) {
+    .footer {
+        padding: 15px 0px;
+        
+    }
+    .flogo {
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .hmz {
+        margin-top: -5%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif
+    }
+        
+}

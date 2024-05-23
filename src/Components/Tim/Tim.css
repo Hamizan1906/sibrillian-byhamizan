@@ -1,0 +1,27 @@
+.slider {
+    width: 100%;
+    background-color: #FEFEFE;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0px 0;
+    color: #333456;
+    padding-top: 100px;
+}
+.slider div {
+    padding-top: 10px;
+}
+.slider img {
+    width: 90%;
+}
+
+/* ---------- media query ----------- */
+@media (max-width:800px) {
+    .slider {
+        padding: 10%;
+    }
+    .slider img {
+        width: 100%;
+    }
+    
+}
